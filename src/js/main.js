@@ -20,8 +20,8 @@
       logoPic.insertAdjacentHTML(
         "afterbegin",
         [
-          '<source srcset="./images/euid-logo-dark.png" media="(prefers-color-scheme: dark)" />',
-          '<source srcset="./images/euid-logo.png" media="(prefers-color-scheme: light)" />',
+          '<source srcset="./images/euid-logo-dark.svg" media="(prefers-color-scheme: dark)" />',
+          '<source srcset="./images/euid-logo.svg" media="(prefers-color-scheme: light)" />',
         ].join("")
       );
       const theme = e.matches ? "dark" : "light";
